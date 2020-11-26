@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/liyue201/grpc-lb/balancer"
-	"github.com/liyue201/grpc-lb/examples/proto"
-	registry "github.com/liyue201/grpc-lb/registry/zookeeper"
+	"github.com/tienthanh1993/grpc-lb/balancer"
+	"github.com/tienthanh1993/grpc-lb/examples/proto"
+	registry "github.com/tienthanh1993/grpc-lb/registry/zookeeper"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"

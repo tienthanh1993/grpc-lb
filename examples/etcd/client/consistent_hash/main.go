@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	etcd "github.com/coreos/etcd/client"
-	"github.com/liyue201/grpc-lb/balancer"
-	"github.com/liyue201/grpc-lb/examples/proto"
-	registry "github.com/liyue201/grpc-lb/registry/etcd"
+	"github.com/tienthanh1993/grpc-lb/balancer"
+	"github.com/tienthanh1993/grpc-lb/examples/proto"
+	registry "github.com/tienthanh1993/grpc-lb/registry/etcd"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"

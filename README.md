@@ -14,9 +14,9 @@ package main
 
 import (
 	etcd "github.com/coreos/etcd/client"
-	"github.com/liyue201/grpc-lb/balancer"
-	"github.com/liyue201/grpc-lb/examples/proto"
-	registry "github.com/liyue201/grpc-lb/registry/etcd"
+	"github.com/tienthanh1993/grpc-lb/balancer"
+	"github.com/tienthanh1993/grpc-lb/examples/proto"
+	registry "github.com/tienthanh1993/grpc-lb/registry/etcd"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"log"
@@ -55,5 +55,5 @@ see more [examples](/examples)
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/liyue201/grpc-lb.svg)](https://starchart.cc/liyue201/grpc-lb)
+[![Stargazers over time](https://starchart.cc/tienthanh1993/grpc-lb.svg)](https://starchart.cc/tienthanh1993/grpc-lb)
 
