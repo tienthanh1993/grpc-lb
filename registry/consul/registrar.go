@@ -47,7 +47,7 @@ func (c *Registrar) Register(service *registry.ServiceInfo) error {
 	register := func() error {
 		regis := &consul.AgentServiceRegistration{
 			ID:      service.InstanceId,
-			Name:    service.Name + ":" + service.Version,
+			Name:    service.Name + "v" + service.Version,
 			Address: service.Address,
 			Tags:    tags,
 			Check: &consul.AgentServiceCheck{
